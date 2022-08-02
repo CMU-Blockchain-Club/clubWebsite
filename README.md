@@ -2,8 +2,12 @@ This is the CMU Blockchain Club's main website. The site focuses on who we are, 
 
 ## Getting Started
 
-First, run the development server:
+1. Install site dependencies:
+```bash
+yarn install
+```
 
+2. Run the development server:
 ```bash
 yarn dev
 ```
