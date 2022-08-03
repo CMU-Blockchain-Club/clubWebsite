@@ -11,10 +11,10 @@ const Footer:NextPage<Props> = (props) => {
     return(
         <div className="h-full px-4 py-10 max-w-screen text-white" style={{backgroundColor:`${CMUBrand.red}`}}>
 
-        <div className="flex flex-row">
+        <div className="flex flex-col space-y-4">
 
         <div className="text-xl font-semibold">
-        <a className="hover:text-sky-400" href="https://jetthays.com" target="_blank" rel="noopener noreferrer">Made by Jett✈️</a>
+        <a className="hover:text-green-500 hover:font-bold" href="https://jetthays.com" target="_blank" rel="noopener noreferrer">Made by Jett✈️</a>
         </div>
 
         <div className="flex-grow place-items-right text-2xl font-semibold">

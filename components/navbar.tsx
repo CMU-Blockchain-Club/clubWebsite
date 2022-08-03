@@ -22,9 +22,13 @@ const NavbarPrelaunch:NextPage = () => {
 
             <div className="flex justify-between items-center hover:cursor-pointer">
                 <div onClick={()=>setMenuMobile(false)}>
-                    <Link href="/">
-                    <img src="/cbgLogo.png" className="w-10 h-auto"/>
-                    </Link>
+                    {
+                        (router.pathname != "/" || isMenuMobile)&&
+                        <Link href="/">
+                        <img src="/cbgLogo.png" className="w-10 h-auto"/>
+                        </Link>
+                    }
+                    
                 </div>
                 <button id="nav-icon" onClick={()=>setMenuMobile(!isMenuMobile)} type="button" className={`md:hidden inline-flex ${isMenuMobile && "open"} items-center ml-3 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:hover:bg-gray-700 dark:focus:ring-gray-600`} aria-controls="mobile-menu" aria-expanded="false">
                 <span className="bg-gray-500 dark:bg-gray-400"></span>

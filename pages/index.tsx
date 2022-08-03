@@ -21,7 +21,7 @@ const Home: NextPage = () => {
      <main className="">
 
         <div className="min-h-[100vh] mx-auto dark:bg-black dark:text-white">
-          <div className="h-[28vh]">
+          <div className="h-[15vh] lg:h-[28vh]">
 
           </div>
           <div className="max-w-5xl mx-auto px-4">
@@ -30,12 +30,15 @@ const Home: NextPage = () => {
             <div className="">
               <img src="/cbgLogo.png" className="max-w-[90%] md:max-w-[500px] h-auto mx-auto"/>
             </div>
-            <div className="flex-grow mx-auto text-center">
+            <div className="flex-grow mx-auto">
               <div className="md:h-[50px]">
 
               </div>
-              <h1 className="text-4xl xl:text-5xl font-bold">CMU Blockchain Group</h1>
-              <p className="text-lg font-semibold text-gray-600">Creating the future one block at a time.</p>
+              <div className="mx-auto">
+                <h1 className="text-4xl xl:text-5xl font-bold mx-auto">CMU Blockchain Group</h1>
+                <p className="text-lg font-semibold text-gray-600">Creating the future one block at a time.</p>
+              </div>
+              
             </div>
           </div>
 
