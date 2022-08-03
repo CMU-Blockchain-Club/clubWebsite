@@ -34,7 +34,7 @@ const Bounties: NextPage = () => {
         {
                     CurrentBounties.length != 0 &&
                     (CurrentBounties).map((bounty:IBounty, index:number)=>
-                              <BountyPreview bounty={bounty}/>
+                              <BountyPreview bounty={bounty} key={index}/>
                     )
         }
         </div>
