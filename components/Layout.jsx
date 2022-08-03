@@ -10,7 +10,7 @@ export default function Layout({children}) {
         <Head>
           <title>CMU Blockchain Group</title>
           <meta name="description" content="The Carnegie Mellon Blockchain club is focused on developing and understanding the decentralized future." />
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/cbgLogo.ico" />
         </Head>
         
       <main className={`mx-auto`}>
