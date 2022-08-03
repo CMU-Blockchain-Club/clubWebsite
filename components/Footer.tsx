@@ -14,7 +14,7 @@ const Footer:NextPage<Props> = (props) => {
         <div className="flex flex-row">
 
         <div className="text-xl font-semibold">
-        Made by Jett✈️
+        <a className="hover:text-sky-400" href="https://jetthays.com" target="_blank" rel="noopener noreferrer">Made by Jett✈️</a>
         </div>
 
         <div className="flex-grow place-items-right text-2xl font-semibold">
