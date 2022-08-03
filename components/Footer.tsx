@@ -21,7 +21,7 @@ const Footer:NextPage<Props> = (props) => {
             <div className="flex flex-row space-x-4 float-right">
                     <a className="text-slate-200 hover:text-slate-300 dark:text-slate-600" href="https://twitter.com/CMUBlockchain" target="_blank" rel="noopener noreferrer">Twitter</a>
                     <a className="text-slate-200 hover:text-slate-300 dark:text-slate-600" href="https://discord.gg/9Pqq6nnwU2" target="_blank" rel="noopener noreferrer">Discord</a> 
-                    <a className="text-slate-200 hover:text-slate-300 dark:text-slate-600" href="cmu.blockchain.group@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
+                    <a className="text-slate-200 hover:text-slate-300 dark:text-slate-600" href="mailto:cmu.blockchain.group@gmail.com" target="_blank" rel="noopener noreferrer">Email</a>
             </div>
                     
         </div>

@@ -26,7 +26,7 @@ const Labs: NextPage = () => {
       </div>
 
      <div className="mb-8">
-      <h1 className="text-5xl font-bold mb-2 text-black">
+      <h1 className="text-5xl font-bold mb-2">
         CBG Labs
       </h1>
       <p className="text-xl text-slate-400 dark:text-slate-300">We're focused on building blockchain tools that make the internet a better place to exist. This is a collection of projects that our members are building.</p>
@@ -49,8 +49,7 @@ const Labs: NextPage = () => {
             onReady={() => {
               console.log('Add project form ready')
             }}
-            enableSandbox
-            className="font-bold bg-green-400 p-2 rounded-lg text-slate-700 transition ease-in-out hover:scale-105 text-xl mx-auto"
+            className="font-bold bg-gray-50 dark:bg-gray-900 p-2 rounded-lg text-slate-600 dark:text-slate-400 transition ease-in-out hover:scale-105 text-xl mx-auto"
           >
           Add Your Project
           </PopupButton>

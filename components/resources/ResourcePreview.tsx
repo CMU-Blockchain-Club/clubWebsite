@@ -33,14 +33,14 @@ const ResourcePreview:NextPage<Props> = (props) => {
 
     return(
         <div id={cardId} className="">
-            <div className="mx-auto hover:z-10 rounded-md drop-shadow-lg border border-gray-200 bg-slate-50 hover:cursor-pointer transition ease-in-out hover:scale-105 max-w-[400px] py-4 min-h-[230px]" onClick={()=>handleMemberClicked()}>
+            <div className="mx-auto hover:z-10 rounded-md drop-shadow-lg border border-gray-200 bg-slate-50 dark:bg-black hover:cursor-pointer transition ease-in-out hover:scale-105 max-w-[400px] py-4 min-h-[230px]" onClick={()=>handleMemberClicked()}>
                 <a className="hover:cursor-pointer text-xl text-slate-500" href={resource.link} target="_blank" rel="noopener noreferrer">
                 <div className="">
                     <div className="flex flex-col space-y-4 px-2">
                         <div className="flex flex-row">
                             <div className=" my-2 ">
                                 <img src={resource.photoPath} className="inline rounded-full w-10 h-10 object-cover"/>
-                                <p className="inline ml-2 text-xl text-gray-500 font-bold">{resource.name}</p>
+                                <p className="inline ml-2 text-xl text-gray-500 dark:text-gray-200 font-bold">{resource.name}</p>
                             </div>
                             <div className="flex-grow text-right mt-2">
                                 {
@@ -51,7 +51,7 @@ const ResourcePreview:NextPage<Props> = (props) => {
                                 }
                             </div>
                         </div>
-                        <p className="text-lg">{resource.description}</p>
+                        <p className="text-lg dark:text-slate-200">{resource.description}</p>
                     </div>
 
                 </div>

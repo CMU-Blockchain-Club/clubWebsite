@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Divider from '../components/Divider'
 import DoCard from '../components/DoCard'
 import Footer from '../components/Footer'
 import MemberPreview from '../components/members/MemberPreview'
@@ -26,11 +25,11 @@ const Home: NextPage = () => {
 
      <main className="">
 
-        <div className="min-h-[100vh] mx-auto px-4">
+        <div className="min-h-[100vh] mx-auto dark:bg-black dark:text-white">
           <div className="h-[28vh]">
 
           </div>
-          <div className="max-w-5xl mx-auto">
+          <div className="max-w-5xl mx-auto px-4">
 
           <div className="flex flex-col md:flex-row space-x-10 space-y-12">
             <div className="">
@@ -48,7 +47,7 @@ const Home: NextPage = () => {
           </div>
           
         </div>
-        <div className="bg-black max-w-screen text-white">
+        <div className="bg-black max-w-screen text-white dark:bg-white dark:text-black">
 
           <div className="max-w-5xl mx-auto pt-8 pb-20">
             <div className="flex-col md:flex-row">
@@ -68,7 +67,7 @@ const Home: NextPage = () => {
       
         </div>
 
-        <div className="max-w-screen">
+        <div className="max-w-screen dark:bg-black dark:text-white">
 
           <div className="max-w-5xl mx-auto pt-8 pb-20">
             <div className="flex-col md:flex-row">
@@ -91,7 +90,7 @@ const Home: NextPage = () => {
           </div>
       
         </div>
-        <div className="bg-black max-w-screen text-white pt-8 pb-20">
+        <div className="bg-black max-w-screen text-white pt-8 pb-20 dark:bg-white dark:text-black">
         <div className='max-w-4xl mx-auto pb-8'>
             <div className="flex-col md:flex-row">
               <div className="text-center font-bold text-6xl font-bold mb-8">

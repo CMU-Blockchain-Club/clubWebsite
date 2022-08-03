@@ -36,8 +36,8 @@ const PartnerPreview:NextPage<Props> = (props) => {
     }
 
     return(
-        <div id={cardId} className="">
-            <div className="mx-auto hover:z-10 rounded-md drop-shadow-lg border border-gray-200 bg-slate-50 hover:cursor-pointer transition ease-in-out hover:scale-105 min-h-[200px] max-w-[70vw]" onClick={()=>handleMemberClicked()}>
+        <div id={cardId} className="w-[100%]">
+            <div className="mx-auto hover:z-10 rounded-md drop-shadow-lg border border-gray-200 bg-slate-50 dark:bg-slate-100 hover:cursor-pointer transition ease-in-out hover:scale-105 min-h-[200px] max-w-[70vw]" onClick={()=>handleMemberClicked()}>
                 <a className="hover:cursor-pointer text-xl text-slate-500" href={partner.link} target="_blank" rel="noopener noreferrer">
                 <div className="flex flex-col space-y-4 px-2">
                     <div className="flex flex-row">
@@ -51,8 +51,8 @@ const PartnerPreview:NextPage<Props> = (props) => {
                             }
                         </div>
                     </div>
-                    <div className="mx-auto">
-                        <img src={partner.photoPath} className="w-full min-w-[68vw] md:min-w-[250px] lg:min-w-[300px] h-auto  object-cover "/>
+                    <div className="mx-auto w-[90%]">
+                        <img src={partner.photoPath} className="w-full h-auto  object-cover"/>
                     </div>
                 </div>
                 </a>

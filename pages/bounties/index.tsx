@@ -24,7 +24,7 @@ const Bounties: NextPage = () => {
       </div>
 
      <div className="mb-8">
-      <h1 className="text-5xl font-bold mb-2 text-black">
+      <h1 className="text-5xl font-bold mb-2">
         Bounties
       </h1>
       <p className="text-xl text-slate-400 dark:text-slate-300">This is a curated list of bounties designed for club members. Each sneak peek links to a full description, with information on how to participate and collect your reward.</p>
@@ -47,8 +47,7 @@ const Bounties: NextPage = () => {
             onReady={() => {
               console.log('Add project form ready')
             }}
-            enableSandbox
-            className="font-bold bg-gray-50 p-2 rounded-lg text-slate-700 transition ease-in-out hover:scale-105 text-xl mx-auto"
+            className="font-bold bg-gray-50 dark:bg-gray-900 p-2 rounded-lg text-slate-600 dark:text-slate-400 transition ease-in-out hover:scale-105 text-xl mx-auto"
           >
           Add Your Bounty
           </PopupButton>

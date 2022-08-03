@@ -26,7 +26,7 @@ const Socials:NextPage<Props> = (props) => {
             {
                 socials.site && 
                 <a href={`${socials.site}`} className="hover:cursor-pointer text-xl text-slate-400 font-semibold pb-2" target="_blank" rel="noopener noreferrer">
-                    <div className="p-1 rounded-lg bg-slate-200 drop-shadow-sm">
+                    <div className="p-1 rounded-lg bg-slate-200 dark:bg-slate-700 drop-shadow-sm">
                         <p>{removeHttp(socials.site)}</p>
                     </div>
                 </a>

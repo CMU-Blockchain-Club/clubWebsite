@@ -27,11 +27,14 @@ const DoCard:NextPage<Props> = (props) => {
             cardTitle.style.color = hexColor;
         })
 
-        document.getElementById(cardId)?.addEventListener("mouseleave", ()=>{
-            let cardTitle = document.getElementById(cardTitleId);
-            if(!cardTitle) return;
-            cardTitle.style.color = defaultTitleColor;
-        })
+        // uncomment below to revert to default color on mouse out
+        // ensure defauylt color works for both light and dark
+
+        // document.getElementById(cardId)?.addEventListener("mouseleave", ()=>{
+        //     let cardTitle = document.getElementById(cardTitleId);
+        //     if(!cardTitle) return;
+        //     cardTitle.style.color = defaultTitleColor;
+        // })
         }
     }, [])
     
