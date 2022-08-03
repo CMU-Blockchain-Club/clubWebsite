@@ -36,7 +36,7 @@ const Home: NextPage = () => {
               </div>
               <div className="mx-auto">
                 <h1 className="text-4xl xl:text-5xl font-bold mx-auto">CMU Blockchain Group</h1>
-                <p className="text-lg font-semibold text-gray-600">Creating the future one block at a time.</p>
+                <p className="text-lg font-semibold text-gray-600 dark:text-gray-400">Creating the future one block at a time.</p>
               </div>
               
             </div>
