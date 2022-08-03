@@ -17,11 +17,6 @@ import { IPartner } from '../src/partners/models'
 const Home: NextPage = () => {
   return (
     <div className="">
-      <Head>
-        <title>CMU Blockchain Group</title>
-        <meta name="description" content="The Carnegie Mellon Blockchain club is focused on developing and understanding the decentralized future." />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
      <main className="">
 

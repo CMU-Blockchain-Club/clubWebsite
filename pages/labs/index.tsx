@@ -3,8 +3,6 @@ import Head from 'next/head'
 import { PopupButton } from '@typeform/embed-react'
 
 import ProjectPreview from '../../components/projects/ProjectPreview'
-import ResourcePreview from '../../components/resources/ResourcePreview'
-import { CMUBrand } from '../../src/brand'
 import { CurrentProjects } from '../../src/labs/projects'
 import { IProject } from '../../src/labs/projects/models'
 
@@ -13,11 +11,11 @@ import { IProject } from '../../src/labs/projects/models'
 const Labs: NextPage = () => {
   return (
     <div className="">
-      <Head>
+      {/* <Head>
         <title>CMU Projects</title>
         <meta name="description" content="CMU blockchain club resouces." />
         <link rel="icon" href="/favicon.ico" />
-      </Head>
+      </Head> */}
 
      <main className="max-w-4xl mx-auto px-8 pb-20">
 

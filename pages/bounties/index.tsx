@@ -11,11 +11,11 @@ import BountyPreview from '../../components/bounties/BountyPreview'
 const Bounties: NextPage = () => {
   return (
     <div className="">
-      <Head>
+      {/* <Head>
         <title>Bounties</title>
         <meta name="description" content="CMU blockchain club resouces." />
         <link rel="icon" href="/favicon.ico" />
-      </Head>
+      </Head> */}
 
      <main className="max-w-4xl mx-auto px-8 pb-20">
 

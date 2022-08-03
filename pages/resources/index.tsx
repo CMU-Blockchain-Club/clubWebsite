@@ -8,11 +8,11 @@ import { IBlockchainResource } from '../../src/resources/models'
 const Resources: NextPage = () => {
   return (
     <div className="">
-      <Head>
+      {/* <Head>
         <title>Blockchain Resources</title>
         <meta name="description" content="CMU blockchain club resouces." />
         <link rel="icon" href="/favicon.ico" />
-      </Head>
+      </Head> */}
 
      <main className="max-w-4xl mx-auto px-8 pb-20">
 
