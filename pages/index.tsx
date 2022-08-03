@@ -1,5 +1,18 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Divider from '../components/Divider'
+import DoCard from '../components/DoCard'
+import Footer from '../components/Footer'
+import MemberPreview from '../components/members/MemberPreview'
+
+import PartnerPreview from '../components/partners/PartnerPreview'
+import { FacultyAdvisors } from '../src/advisors'
+import { IAdvisor } from '../src/advisors/models'
+import { CMUBrand } from '../src/brand'
+import { Board2022 } from '../src/members'
+import { IBoardMember } from '../src/members/models'
+import { ActivePartners } from '../src/partners'
+import { IPartner } from '../src/partners/models'
 
 
 const Home: NextPage = () => {
@@ -11,23 +24,103 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-     <main className="max-w-4xl mx-auto">
+     <main className="">
 
-      <div className="md:min-h-[6rem]">
+        <div className="min-h-[100vh] mx-auto px-4">
+          <div className="h-[28vh]">
 
-      </div>
+          </div>
+          <div className="max-w-5xl mx-auto">
 
-        <div className="min-h-[100vh]">
-          <div className="flex-col md:flex-row">
+          <div className="flex flex-col md:flex-row space-x-10 space-y-12">
             <div className="">
-              <img src="/cbgLogo.png" className="max-w-[90%] md:max-w-[300px] h-auto"/>
+              <img src="/cbgLogo.png" className="max-w-[90%] md:max-w-[500px] h-auto mx-auto"/>
             </div>
-            <div className="">
-              <h1 className="text-4xl">CMU Blockchain Group</h1>
-              <p className="text-lg">Creating the future one block at a time.</p>
+            <div className="flex-grow mx-auto text-center">
+              <div className="md:h-[50px]">
+
+              </div>
+              <h1 className="text-4xl xl:text-5xl font-bold">CMU Blockchain Group</h1>
+              <p className="text-lg font-semibold text-gray-600">Creating the future one block at a time.</p>
             </div>
           </div>
+
+          </div>
+          
         </div>
+        <div className="bg-black max-w-screen text-white">
+
+          <div className="max-w-5xl mx-auto pt-8 pb-20">
+            <div className="flex-col md:flex-row">
+              <div className="text-center font-bold text-6xl font-bold mb-8">
+                Our Partners
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mx-auto place-items-center">
+              {
+                ActivePartners.length != 0 &&
+                (ActivePartners).map((partner:IPartner, index:number)=>
+                          <PartnerPreview partner={partner} key={index}/>
+                )
+              }
+              </div>
+            </div>
+          </div>
+      
+        </div>
+
+        <div className="max-w-screen">
+
+          <div className="max-w-5xl mx-auto pt-8 pb-20">
+            <div className="flex-col md:flex-row">
+              <div className="text-center font-bold text-6xl font-bold mb-8">
+                What We Do
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-3 mx-auto gap-4 md:gap-8 px-8 md:px-0">
+               
+
+                <DoCard title={"101"} description={"Senior members deliver weekly education sessions that simplify the complex world of blockchain."} hexColor={CMUBrand.green}/>
+
+                <DoCard title={"Labs"} description={"An incubator for CMU students to transform ideas into code that changes the world. Project teams are supported by community grants and in house advisors."} hexColor={CMUBrand.red}/>
+
+                <DoCard title={"Network"} description={"We connect the best blockchain companies with the brightest minds from Carnegie Mellon."} hexColor={CMUBrand.blue}/>
+         
+          
+
+              </div>
+            </div>
+          </div>
+      
+        </div>
+        <div className="bg-black max-w-screen text-white pt-8 pb-20">
+        <div className='max-w-4xl mx-auto pb-8'>
+            <div className="flex-col md:flex-row">
+              <div className="text-center font-bold text-6xl font-bold mb-8">
+                    Team
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-3 mx-auto place-items-center">
+                  {
+                    Board2022.length != 0 &&
+                    (Board2022).map((boardMember:IBoardMember, index:number)=>
+                              <MemberPreview member={boardMember} key={index}/>
+                    )
+                  }
+              </div>
+              <div className="text-center font-bold text-5xl font-bold my-12">
+                    Advisors
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2  mx-auto place-items-center">
+                  {
+                    FacultyAdvisors.length != 0 &&
+                    (FacultyAdvisors).map((facultyAdvisor:IAdvisor, index:number)=>
+                              <MemberPreview member={facultyAdvisor} key={index}/>
+                    )
+                  }
+              </div>
+        </div>
+        </div>
+        
+      </div>
+      <Footer/>
 
      </main>
 
