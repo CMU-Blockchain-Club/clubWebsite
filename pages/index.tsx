@@ -21,7 +21,7 @@ const Home: NextPage = () => {
      <main className="">
 
         <div className="min-h-[100vh] mx-auto dark:bg-black dark:text-white">
-          <div className="h-[15vh] md:h-[18vh] lg:h-[23vh] xl:h-[25vh]">
+          <div className="h-[15vh] md:h-[16vh] lg:h-[20vh] xl:h-[25vh]">
 
           </div>
           <div className="max-w-5xl mx-auto px-4">

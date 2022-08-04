@@ -6,7 +6,7 @@ import Footer from "./Footer"
 export default function Layout({children}) {
 
     return (
-        <div className={`min-h-screen`}>
+        <div className={`min-h-screen pb-20`}>
         <Head>
           <title>CMU Blockchain Group</title>
           <meta name="description" content="The Carnegie Mellon Blockchain club is focused on developing and understanding the decentralized future." />
