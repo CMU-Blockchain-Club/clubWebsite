@@ -23,7 +23,7 @@ const ProjectPreview:NextPage<Props> = (props) => {
                     <div className="flex flex-col space-y-4 px-2">
                         <div className="flex flex-row">
                             <div className=" my-2 ">
-                                <img src={project.photoPath} className="inline rounded-full w-10 h-10 object-cover"/>
+                                <img src={project.photoPath} className="inline rounded-full w-10 h-10 object-cover bg-black"/>
                                 <p className="inline ml-2 text-xl text-gray-500 dark:text-gray-200 font-bold">{project.name}</p>
                             </div>
                         </div>

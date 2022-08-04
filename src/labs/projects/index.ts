@@ -10,5 +10,15 @@ export const CurrentProjects:IProject[] = [
             twitter:"https://twitter.com/kryptikapp",
             github:"https://github.com/KryptikApp"
         }
+    },
+    {
+        name:"Ottersec",
+        description:"Smart contract audits with a focus on the Solana ecosystem.",
+        photoPath:"/media/projects/logoOsec.png",
+        socials:{
+            site:"https://osec.io/",
+            twitter:"https://twitter.com/osec_io",
+            github:"https://github.com/otter-sec"
+        }
     }
 ]
