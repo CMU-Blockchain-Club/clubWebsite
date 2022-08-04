@@ -12,7 +12,7 @@ export const CurrentProjects:IProject[] = [
         }
     },
     {
-        name:"Ottersec",
+        name:"OtterSec",
         description:"Smart contract audits with a focus on the Solana ecosystem.",
         photoPath:"/media/projects/logoOsec.png",
         socials:{
