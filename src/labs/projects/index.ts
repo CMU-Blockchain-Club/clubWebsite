@@ -13,7 +13,7 @@ export const CurrentProjects:IProject[] = [
     },
     {
         name:"OtterSec",
-        description:"Smart contract audits with a focus on the Solana ecosystem.",
+        description:"Smart contract audits with a proven track record in both traditional security and Web3. OtterSec has reports against popular protocols like Saber, Jet, Switchboard, and more.",
         photoPath:"/media/projects/logoOsec.png",
         socials:{
             site:"https://osec.io/",
