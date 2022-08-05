@@ -20,5 +20,14 @@ export const CurrentProjects:IProject[] = [
             twitter:"https://twitter.com/osec_io",
             github:"https://github.com/otter-sec"
         }
+    },
+    {
+        name:"The Fashionverse",
+        description:"Enables self-expression for virtual identities by creating, marketing, and selling digital fashion for businesses like luxury fashion brands, select NFT communities, and celebrity-sponsored social campaigns.",
+        photoPath:"/media/projects/logoFashionverse.jpg",
+        socials:{
+            site:"https://www.thefashionverse.io/",
+            twitter:"https://twitter.com/FashionVerseInc"
+        }
     }
 ]
