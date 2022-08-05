@@ -30,7 +30,7 @@ const Labs: NextPage = () => {
       <p className="text-xl text-slate-400 dark:text-slate-300">Celebrating those who laid the path before us.</p>
     </div>
     <div className="text-xl text-black dark:text-white mb-4 leading-loose">
-        <p>We're proud to have a large network of <span className="font-semibold text-green-400">builders</span>, <span className="font-semibold text-blue-400">thinkers</span>, and <span className="font-semibold text-purple-500">doers</span> inside of the blockchain space. Our alumni have gone on to create bilion dollar funds, invest in sustainable research, and create innovative technology on the decentralized frontier.</p>
+        <p>We're proud to have a large network of <span className="font-semibold text-green-400">builders</span>, <span className="font-semibold text-blue-400">thinkers</span>, and <span className="font-semibold text-purple-500">doers</span> inside of the blockchain space. Our alumni have gone on to create billion dollar funds, invest in sustainable research, and create innovative technology on the decentralized frontier.</p>
         <p className="text-lg italic my-4">If you're interested in adding your bio or project to our website, please fill out the form below.</p>
     </div>
 
