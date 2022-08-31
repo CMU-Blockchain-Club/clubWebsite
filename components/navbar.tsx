@@ -38,9 +38,10 @@ const NavbarPrelaunch:NextPage = () => {
             </div>
             <div id="menu" className={menuWrapperClassName} onClick={()=>setMenuMobile(false)}>
                 <Link href="../labs"><span className={ `p-2 lg:px-4 md:mx-2 text-gray-400 text-3xl md:text-xl hover:cursor-pointer hover:text-green-400 dark:hover:text-green-300 transition-colors duration-300 ${router.pathname == "/labs" ? "font-bold" : ""} `}>Projects</span></Link>
+                <Link href="../bounties"><span className={ `p-2 lg:px-4 md:mx-2 text-gray-400 text-3xl md:text-xl hover:cursor-pointer hover:text-green-400 dark:hover:text-green-300 transition-colors duration-300 ${router.pathname == "/bounties" ? "font-bold" : ""} `}>Bounties</span></Link>
                 <Link href="../resources"><span className={`p-2 lg:px-4 md:mx-2 text-gray-400 text-3xl md:text-xl hover:cursor-pointer hover:text-green-400 dark:hover:text-green-300 transition-colors duration-300 ${router.pathname == "/resources" ? "font-bold" : ""} `}>Resources</span></Link>
                 {/* show disconnect button if connected and vise versa */}
-                <Link href="../bounties"><span className={`p-2 lg:px-4 md:mx-2 text-green-400 text-3xl md:text-lg md:text-center md:border md:border-solid md:border-gray-300 md:dark:border-gray-600 md:dark:hover:border-sky-200 rounded hover:bg-green-400 hover:cursor-pointer hover:text-white transition-colors duration-300 mt-1 md:mt-0 md:ml-1`}>Bounties</span></Link>
+                <Link href="../members"><span className={`p-2 lg:px-4 md:mx-2 text-green-400 text-3xl md:text-lg md:text-center md:border md:border-solid md:border-gray-300 md:dark:border-gray-600 md:dark:hover:border-sky-200 rounded hover:bg-green-400 hover:cursor-pointer hover:text-white transition-colors duration-300 mt-1 md:mt-0 md:ml-1`}>Apply</span></Link>
             </div>
             </div>
         </nav>
