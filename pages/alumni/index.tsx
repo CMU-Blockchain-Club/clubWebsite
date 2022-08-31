@@ -8,7 +8,7 @@ import { IProject } from '../../src/labs/projects/models'
 
 
 
-const Labs: NextPage = () => {
+const Alumni: NextPage = () => {
   return (
     <div className="">
       {/* <Head>
@@ -40,7 +40,7 @@ const Labs: NextPage = () => {
             id="LQJPhkXQ"
             size={60}
             onReady={() => {
-              console.log('Add project form ready')
+              console.log('Add alumni form ready')
             }}
             className="font-bold bg-gray-50 dark:bg-gray-800 p-2 rounded-lg text-slate-600 dark:text-slate-200 transition ease-in-out hover:scale-105 text-xl mx-auto"
           >
@@ -55,4 +55,4 @@ const Labs: NextPage = () => {
   )
 }
 
-export default Labs
+export default Alumni
