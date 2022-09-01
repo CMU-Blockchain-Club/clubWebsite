@@ -8,7 +8,7 @@ import PartnerPreview from '../components/partners/PartnerPreview'
 import { FacultyAdvisors } from '../src/advisors'
 import { IAdvisor } from '../src/advisors/models'
 import { CMUBrand } from '../src/brand'
-import { Board2022 } from '../src/members'
+import { Board2022, Board22And23 } from '../src/members'
 import { IBoardMember } from '../src/members/models'
 import { ActivePartners } from '../src/partners'
 import { IPartner } from '../src/partners/models'
@@ -96,8 +96,8 @@ const Home: NextPage = () => {
               </div>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-3 mx-auto place-items-center">
                   {
-                    Board2022.length != 0 &&
-                    (Board2022).map((boardMember:IBoardMember, index:number)=>
+                    Board22And23.length != 0 &&
+                    (Board22And23).map((boardMember:IBoardMember, index:number)=>
                               <MemberPreview member={boardMember} key={index}/>
                     )
                   }
@@ -105,7 +105,7 @@ const Home: NextPage = () => {
               <div className="text-center font-bold text-5xl font-bold my-12">
                     Advisors
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-2  mx-auto place-items-center">
+              <div className="grid grid-cols-1  mx-auto place-items-center">
                   {
                     FacultyAdvisors.length != 0 &&
                     (FacultyAdvisors).map((facultyAdvisor:IAdvisor, index:number)=>

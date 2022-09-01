@@ -6,9 +6,10 @@ export const FacultyAdvisors:IAdvisor[] = [
         photoPath: "/media/leaders/advisors/elaineShi.png",
         socials:{}
     },
-    {
-        name: "Vipul Goyal",
-        photoPath: "/media/leaders/advisors/vipulGoyal.png",
-        socials:{}
-    }
+    // on leave
+    // {
+    //     name: "Vipul Goyal",
+    //     photoPath: "/media/leaders/advisors/vipulGoyal.png",
+    //     socials:{}
+    // }
 ]
