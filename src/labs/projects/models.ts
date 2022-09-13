@@ -4,5 +4,5 @@ export interface IProject{
     name:string,
     description?:string,
     photoPath:string,
-    socials:ISocials
+    socials?:ISocials
 }

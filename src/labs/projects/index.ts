@@ -40,3 +40,27 @@ export const CurrentProjects:IProject[] = [
         }
     }
 ]
+
+
+export const CallsForSubmission22Fall:IProject[] = [
+    {
+        name:"Ethereum Node",
+        description:"Set up an Ethereum node and maintain it for the semester. The club will purchase the hardware and provide a small monthly stipend.",
+        photoPath:"/media/projects/logoEthereum.png",
+    },
+    {
+        name:"Web3 Login",
+        description:"Update our club website to be Web3 enabled. Members should be able to connect their wallets and 'sign in with ethereum'.",
+        photoPath:"/cbgLogo.png",
+    },
+    {
+        name:"Build Your Own",
+        description:"If you have an idea for a decentralized application, build it! The club will help with funding and team creation.",
+        photoPath:"/media/profiles/gradientSquare.jpg",
+    },
+    // {
+    //     name:"NEAR Validator",
+    //     description:"Set up a NEAR validator and maintain it for the semester. The club will purchase the hardware and provide a small monthly stipend.",
+    //     photoPath:"/media/projects/logoNEAR.png",
+    // }
+]

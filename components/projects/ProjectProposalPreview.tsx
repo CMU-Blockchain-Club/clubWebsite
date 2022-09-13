@@ -7,18 +7,16 @@ interface Props {
     project:IProject
 }
 
-const ProjectPreview:NextPage<Props> = (props) => {
+const ProjectProposalPreview:NextPage<Props> = (props) => {
     const{project} = {...props};
 
-    
-
-    const handleMemberClicked = function(){
-
+    function handleProposalClicked(): void {
+        console.log("Hey!");
     }
 
     return(
         <div className="">
-            <div className="mx-auto hover:z-10 rounded-md drop-shadow-lg border border-gray-200 bg-slate-50 dark:bg-black transition ease-in-out hover:scale-105 max-w-[400px] py-4 min-h-[335px]" onClick={()=>handleMemberClicked()}>
+            <div className="mx-auto hover:z-10 rounded-md drop-shadow-lg border border-gray-200 bg-slate-50 dark:bg-black transition ease-in-out hover:scale-105 hover:border-purple-400 max-w-[400px] py-4 px-2 min-h-[225px]" onClick={()=>handleProposalClicked()}>
                 <div className="">
                     <div className="flex flex-col space-y-4 px-2">
                         <div className="flex flex-row">
@@ -44,4 +42,7 @@ const ProjectPreview:NextPage<Props> = (props) => {
     )
 }
 
-export default ProjectPreview;
+export default ProjectProposalPreview;
+
+
+
