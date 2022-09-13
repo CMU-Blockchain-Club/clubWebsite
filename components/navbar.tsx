@@ -38,6 +38,7 @@ const NavbarPrelaunch:NextPage = () => {
             </div>
             <div id="menu" className={menuWrapperClassName} onClick={()=>setMenuMobile(false)}>
                 <Link href="../labs"><span className={ `p-2 lg:px-4 md:mx-2 text-gray-400 text-3xl md:text-xl hover:cursor-pointer hover:text-green-400 dark:hover:text-green-300 transition-colors duration-300 ${router.pathname == "/labs" ? "font-bold" : ""} `}>Projects</span></Link>
+                <Link href="../research"><span className={ `p-2 lg:px-4 md:mx-2 text-gray-400 text-3xl md:text-xl hover:cursor-pointer hover:text-green-400 dark:hover:text-green-300 transition-colors duration-300 ${router.pathname == "/research" ? "font-bold" : ""} `}>Research</span></Link>
                 <Link href="../bounties"><span className={ `p-2 lg:px-4 md:mx-2 text-gray-400 text-3xl md:text-xl hover:cursor-pointer hover:text-green-400 dark:hover:text-green-300 transition-colors duration-300 ${router.pathname == "/bounties" ? "font-bold" : ""} `}>Bounties</span></Link>
                 <Link href="../resources"><span className={`p-2 lg:px-4 md:mx-2 text-gray-400 text-3xl md:text-xl hover:cursor-pointer hover:text-green-400 dark:hover:text-green-300 transition-colors duration-300 ${router.pathname == "/resources" ? "font-bold" : ""} `}>Resources</span></Link>
                 {/* show disconnect button if connected and vise versa */}
