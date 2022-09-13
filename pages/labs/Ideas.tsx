@@ -26,7 +26,7 @@ const Ideas: NextPage = () => {
         2022 Builds
       </h1>
       <div className="text-xl text-slate-400 dark:text-slate-300">
-        <p>Calling all builders! This is a collection of projects that <span className="font-semibold">CBG Labs</span> will be focused on building throughout the fall. We will host regular hackalongs to help you get started. Team forms will be released soon.</p>
+        <p>Calling all builders! This is a collection of projects that <span className="font-semibold">CBG Labs</span> will build throughout the fall. We will host regular hackalongs to help you get started. Team forms will be released soon.</p>
         <p className="text-lg dark:text-gray-600 text-gray-300 my-2">As a member, you are required to contribute to at least one project this semester.</p>
       </div>
     </div>
