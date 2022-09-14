@@ -3,6 +3,7 @@ import Head from 'next/head'
 import DoCard from '../components/DoCard'
 import Footer from '../components/Footer'
 import MemberPreview from '../components/members/MemberPreview'
+import OfficerPreview from '../components/members/OfficerPreview'
 
 import PartnerPreview from '../components/partners/PartnerPreview'
 import { FacultyAdvisors } from '../src/advisors'
@@ -98,7 +99,7 @@ const Home: NextPage = () => {
                   {
                     Board22And23.length != 0 &&
                     (Board22And23).map((boardMember:IBoardMember, index:number)=>
-                              <MemberPreview member={boardMember} key={index}/>
+                              <OfficerPreview member={boardMember} key={index}/>
                     )
                   }
               </div>

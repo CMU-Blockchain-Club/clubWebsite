@@ -26,7 +26,9 @@ export enum BoardPosition{
     president = 0,
     vicePresident = 1,
     treasurer = 2,
-    general = 3
+    general = 3,
+    marketing = 4,
+    governance = 5
 }
 
 export const boardPositionToUiString = function(position:BoardPosition):string{
@@ -38,10 +40,16 @@ export const boardPositionToUiString = function(position:BoardPosition):string{
             return "Vice President"
         }
         case(BoardPosition.treasurer):{
-            return "Treasurer"
+            return "Finance"
+        }
+        case(BoardPosition.governance):{
+            return "Governance"
+        }
+        case(BoardPosition.marketing):{
+            return "Marketing"
         }
         default:{
-            return "Board Member"
+            return "Officer"
         }
     }
 }

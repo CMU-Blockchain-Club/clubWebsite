@@ -5,7 +5,7 @@ export const Board2022:IBoardMember[] = [
         name: "Jett Hays",
         photoPath: "/media/leaders/board2122/jett.jpg",
         boardData:{
-            position: BoardPosition.president
+            position: BoardPosition.vicePresident
         },
         socials:{}
     },
@@ -13,7 +13,7 @@ export const Board2022:IBoardMember[] = [
         name: "Nicole Sun",
         photoPath: "/media/leaders/board2122/nicolesun.jpg",
         boardData:{
-            position: BoardPosition.vicePresident
+            position: BoardPosition.marketing
         },
         socials:{}
     },
@@ -53,7 +53,7 @@ export const Board2022:IBoardMember[] = [
         name: "Ishgun Arora",
         photoPath: "/media/leaders/board2122/ishgun.jpg",
         boardData:{
-            position: BoardPosition.vicePresident
+            position: BoardPosition.president
         },
         socials:{}
     },
@@ -96,7 +96,7 @@ export const Board22And23:IBoardMember[] = [
         name: "Hao Wei",
         photoPath: "/media/leaders/board2122/hao.jpg",
         boardData:{
-            position: BoardPosition.general
+            position: BoardPosition.governance
         },
         socials:{}
     },
@@ -104,7 +104,7 @@ export const Board22And23:IBoardMember[] = [
         name: "Ishgun Arora",
         photoPath: "/media/leaders/board2122/ishgun.jpg",
         boardData:{
-            position: BoardPosition.vicePresident
+            position: BoardPosition.general
         },
         socials:{}
     },
@@ -112,7 +112,7 @@ export const Board22And23:IBoardMember[] = [
         name: "Darin Chaoui",
         photoPath: "/media/leaders/board2122/darin.jpg",
         boardData:{
-            position: BoardPosition.general
+            position: BoardPosition.marketing
         },
         socials:{}
     }
