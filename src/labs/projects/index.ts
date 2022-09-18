@@ -1,4 +1,4 @@
-import { IProject } from "./models";
+import { IProject, TopicTag } from "./models";
 
 export const CurrentProjects:IProject[] = [
     {
@@ -47,11 +47,19 @@ export const CallsForSubmission22Fall:IProject[] = [
         name:"Ethereum Node",
         description:"Set up an Ethereum node and maintain it for the semester. The club will purchase the hardware and provide a small monthly stipend.",
         photoPath:"/media/projects/logoEthereum.png",
+        tag: TopicTag.infrastructure
     },
     {
         name:"Web3 Login",
         description:"Update our club website to be Web3 enabled. Members should be able to connect their wallets and 'sign in with ethereum'.",
         photoPath:"/cbgLogo.png",
+        tag: TopicTag.identity
+    },
+    {
+        name:"Onchain Voting",
+        description:"Build a website where people can create and vote on proposals. Both votes and proposals will be stored on the blockchain.",
+        photoPath:"/media/projects/ballotBox.jpg",
+        tag:TopicTag.privacy
     },
     {
         name:"Build Your Own",
