@@ -3,6 +3,7 @@ import type { NextPage } from 'next'
 import { CallsForSubmission22Fall, CurrentProjects } from '../../src/labs/projects'
 import { IProject } from '../../src/labs/projects/models'
 import ProjectProposalPreview from '../../components/projects/ProjectProposalPreview'
+import { PopupButton } from '@typeform/embed-react'
 
 
 
@@ -26,10 +27,24 @@ const Ideas: NextPage = () => {
         2022 Builds
       </h1>
       <div className="text-xl text-slate-400 dark:text-slate-300">
-        <p>Calling all builders! This is a collection of projects that <span className="font-semibold">CBG Labs</span> will build throughout the fall. We will host regular hackalongs to help you get started. Team forms will be released soon.</p>
+        <p>Calling all builders! This is a collection of projects that <span className="font-semibold">CBG Labs</span> will build throughout the fall. We will host regular hackalongs to help you get started.</p>
         <p className="text-lg dark:text-gray-600 text-gray-300 my-2">As a member, you are required to contribute to at least one project this semester.</p>
       </div>
     </div>
+
+    {/* research team form */}
+    <div className="mx-auto my-2">
+          <PopupButton
+            id="SkEHwORL"
+            size={60}
+            onReady={() => {
+              console.log('Member application form ready')
+            }}
+            className="font-bold bg-gradient-to-r from-purple-400 to-pink-600 p-2 rounded-lg text-slate-600 dark:text-slate-200 transition ease-in-out hover:scale-105 text-xl mx-auto"
+          >
+          Join Team
+          </PopupButton>
+      </div>
 
         <div className="mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
         {

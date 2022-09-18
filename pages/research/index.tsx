@@ -6,6 +6,7 @@ import ProjectProposalPreview from '../../components/projects/ProjectProposalPre
 import { ResearchQuestions22 } from '../../src/labs/research'
 import { IResearchQuestion } from '../../src/labs/research/models'
 import QuestionPreview from '../../components/research/QuestionPreview'
+import { PopupButton } from '@typeform/embed-react'
 
 
 
@@ -29,9 +30,22 @@ const Ideas: NextPage = () => {
         CBG Research
       </h1>
       <div className="text-xl text-slate-400 dark:text-slate-300">
-        <p>Calling all researchers! This is a collection of research questions that we will explore throughout the year. We will host regular EDU sessions to help you get started. Team forms will be released soon.</p>
+        <p>Calling all researchers! This is a collection of research questions that we will explore throughout the year. We will host regular EDU sessions to help you get started.</p>
         <p className="text-lg dark:text-gray-600 text-gray-300 my-2">As a member, you are required to contribute to at least one research project this semester.</p>
       </div>
+       {/* research team form */}
+       <div className="mx-auto">
+          <PopupButton
+            id="SkEHwORL"
+            size={60}
+            onReady={() => {
+              console.log('Member application form ready')
+            }}
+            className="my-2 font-bold bg-gradient-to-r from-purple-400 to-pink-600 p-2 rounded-lg text-slate-600 dark:text-slate-200 transition ease-in-out hover:scale-105 text-xl mx-auto"
+          >
+          Join Team
+          </PopupButton>
+        </div>
     </div>
 
         <div className="mx-auto grid grid-cols-1 gap-8 mb-16">
