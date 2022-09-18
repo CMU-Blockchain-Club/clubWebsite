@@ -53,6 +53,8 @@ const Members: NextPage = () => {
           Apply Now
           </PopupButton>
         </div>
+
+      <p className="text-slate-300 dark:text-slate-400 my-2 text-md">Applications for the fall semester are now <span className="font-bold">closed</span>.</p>
       
 
      </main>
