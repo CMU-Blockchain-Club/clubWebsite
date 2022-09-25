@@ -5,6 +5,7 @@ import { PopupButton } from '@typeform/embed-react'
 import ProjectPreview from '../../components/projects/ProjectPreview'
 import { CurrentProjects } from '../../src/labs/projects'
 import { IProject } from '../../src/labs/projects/models'
+import Link from 'next/link'
 
 
 
@@ -39,6 +40,7 @@ const Members: NextPage = () => {
         <li className="text-gray-800 dark:text-gray-400 font-semibold hover:text-orange-500">Industry job opportunities</li>
       </ol>
     </div>
+    If you are already a member, go <span className="text-purple-500 font-semibold"><Link href="../members/portal">here</Link></span>.
 
         {/* project add form */}
         <div className="mx-auto">
