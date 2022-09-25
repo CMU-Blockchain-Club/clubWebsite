@@ -44,7 +44,7 @@ const Members: NextPage = () => {
         <div className="mx-auto">
           <PopupButton
             id="e6FFEeGR"
-            size={60}
+            size={80}
             onReady={() => {
               console.log('Member application form ready')
             }}

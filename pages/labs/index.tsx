@@ -44,7 +44,7 @@ const Labs: NextPage = () => {
         <div className="mx-auto">
           <PopupButton
             id="wF7rKeIG"
-            size={60}
+            size={80}
             onReady={() => {
               console.log('Add project form ready')
             }}

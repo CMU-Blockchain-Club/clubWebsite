@@ -37,7 +37,7 @@ const Ideas: NextPage = () => {
        <div className="mx-auto">
           <PopupButton
             id="SkEHwORL"
-            size={60}
+            size={80}
             onReady={() => {
               console.log('Member application form ready')
             }}
