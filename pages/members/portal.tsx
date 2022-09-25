@@ -30,7 +30,7 @@ const Portal: NextPage = () => {
       </h1>
       <p className="text-xl text-slate-400 dark:text-slate-300">A central hub for member activities.</p>
     </div>
-    <p className="text-lg mb-4">Congratulations on being accepted! The steps below will help you get started as an official member of the <span className="text-transparent font-bold bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">CMU Blockchain Group</span>.</p>
+    <p className="text-lg mb-4">Congratulations on being accepted! The steps below will get you started as an official member of the <span className="text-transparent font-bold bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">CMU Blockchain Group</span>.</p>
     <div className="flex flex-col space-y-8 max-w-2xl mx-auto">
       <div className="rounded-lg border px-2 py-4 hover:shadow-md hover:shadow-purple-400">
             <div className="my-2">
