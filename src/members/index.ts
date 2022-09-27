@@ -1,4 +1,4 @@
-import { BoardPosition, IBoardMember } from "./models";
+import { BoardPosition, IBoardMember, IMember } from "./models";
 
 export const Board2022:IBoardMember[] = [
     {
@@ -116,4 +116,67 @@ export const Board22And23:IBoardMember[] = [
         },
         socials:{}
     }
+]
+
+export const Members22And23:IMember[] = [
+    {
+        name: "Yousif Alnajjar",
+        description: "I'm a CS freshman, mostly focused on building, but I also enjoy researching.",
+        photoPath: "/media/members/22-23/YousifAlnajjar.jpg",
+        socials: {
+            twitter:"https://twitter.com/YousifJAlnajjar",
+            github: "https://github.com/Yousif-Alnajjar"
+        }
+    },
+    {
+        name: "Wei Wu",
+        description: "I am a video game developer & Web 3 buidler. I'm learning smart contract development.",
+        photoPath: "/media/members/22-23/WeiWu.jpeg",
+        socials: {
+            twitter: "https://twitter.com/AWW362",
+            github: "https://github.com/UndertakerW"
+        }
+    },
+    {
+        name: "Warren Wu",
+        description: "New but excited to web3, love skateboarding.",
+        photoPath: "/media/members/22-23/warrenWu.jpeg",
+        socials: {
+            twitter:"https://twitter.com/Wuuuuzula",
+            github:"https://github.com/Wuuuzula"
+        }
+    },
+    {
+        name: "Benny",
+        description: "I like to code. I Love to play games ",
+        photoPath: "/media/members/22-23/Benny.png",
+        socials: {
+            github:"https://github.com/Bozebro"
+        }
+    },
+    {
+        name: "Ram Potham",
+        description: "I'm an entrepreneurial person who loves using technology to make impactful applications. I enjoy rock climbing, running, gaming, and hackathons.",
+        photoPath: "/media/members/22-23/RamPotham.jpg",
+        socials: {
+            twitter: "https://twitter.com/PothamRam",
+            github: "https://github.com/rapturt9",
+            site: "https://rampotham.com/"
+        }
+    },
+    {
+        name: "Tanay Venkata",
+        photoPath: "/media/members/22-23/TanayVenkata.jpeg",
+        socials: {}
+    },
+    {
+        name: "Kyle Lee",
+        description: "An avid explorer of both the outdoors and code. A programming fanatic enthusiastic about the future of web3.",
+        photoPath: "/media/members/22-23/KyleLee.jpeg",
+        socials: {
+            twitter:"https://twitter.com/KyleleeSea",
+            github:"https://github.com/kyleleesea"
+        }
+    },
+
 ]
