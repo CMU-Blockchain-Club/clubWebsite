@@ -140,7 +140,7 @@ export const Members22And23:IMember[] = [
     {
         name: "Warren Wu",
         description: "New but excited to web3, love skateboarding.",
-        photoPath: "/media/members/22-23/warrenWu.jpeg",
+        photoPath: "/media/members/22-23/WarrenWu.jpeg",
         socials: {
             twitter:"https://twitter.com/Wuuuuzula",
             github:"https://github.com/Wuuuzula"
