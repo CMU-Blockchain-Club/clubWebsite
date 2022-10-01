@@ -43,7 +43,7 @@ const Bounties: NextPage = () => {
         <div className="mx-auto">
           <PopupButton
             id="tW4DCMcA"
-            size={60}
+            size={80}
             onReady={() => {
               console.log('Add project form ready')
             }}
