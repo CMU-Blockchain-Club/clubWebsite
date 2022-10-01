@@ -9,8 +9,8 @@ export const ResearchQuestions22:IResearchQuestion[] = [
         question:"What is the role of identity in Web3?",
         description:"Participants will research decentralized identity solutions like 'Sign in with Ethereum'. The final deliverable will be a short, readable paper published on our blog."
    },
-   {
-    question:"What is the optimal approach to scaling?",
-    description:"There are many projects trying to scale blockchains. Participants will research these projects and analyze the tradeoffs of different scaling solutions."
-   }
+//    {
+//     question:"What is the optimal approach to scaling?",
+//     description:"There are many projects trying to scale blockchains. Participants will research these projects and analyze the tradeoffs of different scaling solutions."
+//    }
 ]
