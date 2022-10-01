@@ -178,5 +178,45 @@ export const Members22And23:IMember[] = [
             github:"https://github.com/kyleleesea"
         }
     },
+    {
+        name: "Oliver Yao",
+        description: "A striving perfectionist trying to make sense of an imperfect world. Excited to work with cutting-edge technology and build real-world solutions.",
+        photoPath: "/media/members/22-23/oliverYao.jpg",
+        socials: {
+            twitter:"https://twitter.com/KyleleeSea",
+            github:"https://github.com/kyleleesea"
+        }
+    },
+    {
+        name: "Sara Patel",
+        description: "Just started learning about blockchains and I'm excited to build dApps. Love poker and baking.",
+        photoPath: "/media/members/22-23/saraPatel.jpg",
+        socials: {
+            github:"https://github.com/spaddle-boat"
+        }
+    },
+    {
+        name: "Marlon Edwards",
+        description: "I am a self-taught programmer that makes videos. Interested in building the future of web3.",
+        photoPath: "/media/members/22-23/marlonEdwards.png",
+        socials: {
+        }
+    },
+    {
+        name: "Nancy Zuo",
+        description: "I like to draw and write and think about human coordination problems: like how we gather, connect, and work together",
+        photoPath: "/media/members/22-23/nancyZuo.jpg",
+        socials: {
+            twitter:"https://twitter.com/nzzuo",
+        }
+    },
+    {
+        name: "Chungeng Meng",
+        description: "Active coder and equity trader with interests in web dev, blockchain, and fintech.",
+        photoPath: "/media/members/22-23/chungengMeng.jpg",
+        socials: {
+            github:"https://github.com/InfTkm"
+        }
+    },
 
 ]
