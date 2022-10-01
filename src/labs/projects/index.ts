@@ -62,10 +62,15 @@ export const CallsForSubmission22Fall:IProject[] = [
         tag:TopicTag.privacy
     },
     {
-        name:"Build Your Own",
-        description:"If you have an idea for a decentralized application, build it! The club will help with funding and team creation.",
-        photoPath:"/media/profiles/gradientSquare.jpg",
+        name:"Java Monero Wallet",
+        description:"Create a monero wallet implementation in java. This will allow users to send and receive tokens on the Monero network.",
+        photoPath:"/media/projects/logoMonero.png",
     },
+    // {
+    //     name:"Build Your Own",
+    //     description:"If you have an idea for a decentralized application, build it! The club will help with funding and team creation.",
+    //     photoPath:"/media/profiles/gradientSquare.jpg",
+    // },
     // {
     //     name:"NEAR Validator",
     //     description:"Set up a NEAR validator and maintain it for the semester. The club will purchase the hardware and provide a small monthly stipend.",
