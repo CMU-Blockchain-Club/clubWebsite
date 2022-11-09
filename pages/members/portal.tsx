@@ -82,6 +82,14 @@ const Portal: NextPage = () => {
             </div>
       </div>
       </a>
+      <Link href="../conferences">
+      <div className="hover:cursor-pointer rounded-lg border px-2 py-4 hover:shadow-md hover:shadow-purple-400">
+            <div className="my-2">
+              <h1 className="text-gray-500 dark:text-gray-200 font-bold text-3xl">4. Events</h1>
+              <p className="text-lg text-slate-800 dark:text-slate-200"><span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 font-semibold">Apply for funding</span> to attend major community events like EthDenver.</p>
+            </div>
+      </div>
+      </Link>
     </div>
 
       
