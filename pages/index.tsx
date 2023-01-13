@@ -9,7 +9,7 @@ import PartnerPreview from '../components/partners/PartnerPreview'
 import { FacultyAdvisors } from '../src/advisors'
 import { IAdvisor } from '../src/advisors/models'
 import { CMUBrand } from '../src/brand'
-import { Board2022, Board22And23 } from '../src/members'
+import { Board23Spring } from '../src/members'
 import { IBoardMember } from '../src/members/models'
 import { ActivePartners } from '../src/partners'
 import { IPartner } from '../src/partners/models'
@@ -97,8 +97,8 @@ const Home: NextPage = () => {
               </div>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-3 mx-auto place-items-center">
                   {
-                    Board22And23.length != 0 &&
-                    (Board22And23).map((boardMember:IBoardMember, index:number)=>
+                    Board23Spring.length != 0 &&
+                    (Board23Spring).map((boardMember:IBoardMember, index:number)=>
                               <OfficerPreview member={boardMember} key={index}/>
                     )
                   }

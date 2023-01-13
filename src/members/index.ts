@@ -67,7 +67,7 @@ export const Board2022:IBoardMember[] = [
     }
 ]
 
-export const Board22And23:IBoardMember[] = [
+export const Board22Fall:IBoardMember[] = [
     {
         name: "Jett Hays",
         photoPath: "/media/leaders/board2122/jett.jpg",
@@ -84,6 +84,49 @@ export const Board22And23:IBoardMember[] = [
         },
         socials:{}
     },
+    {
+        name: "Fernanda Molina",
+        photoPath: "/media/leaders/board2122/fernanda.jpg",
+        boardData:{
+            position: BoardPosition.treasurer
+        },
+        socials:{}
+    },
+    {
+        name: "Hao Wei",
+        photoPath: "/media/leaders/board2122/hao.jpg",
+        boardData:{
+            position: BoardPosition.governance
+        },
+        socials:{}
+    },
+    {
+        name: "Ishgun Arora",
+        photoPath: "/media/leaders/board2122/ishgun.jpg",
+        boardData:{
+            position: BoardPosition.general
+        },
+        socials:{}
+    },
+    {
+        name: "Darin Chaoui",
+        photoPath: "/media/leaders/board2122/darin.jpg",
+        boardData:{
+            position: BoardPosition.marketing
+        },
+        socials:{}
+    }
+]
+
+export const Board23Spring:IBoardMember[] = [
+    {
+        name: "Jett Hays",
+        photoPath: "/media/leaders/board2122/jett.jpg",
+        boardData:{
+            position: BoardPosition.president
+        },
+        socials:{}
+    },    
     {
         name: "Fernanda Molina",
         photoPath: "/media/leaders/board2122/fernanda.jpg",
