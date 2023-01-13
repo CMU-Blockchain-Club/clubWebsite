@@ -28,7 +28,7 @@ const Labs: NextPage = () => {
       <h1 className="text-5xl font-bold mb-2">
         CBG Labs
       </h1>
-      <p className="text-xl text-slate-400 dark:text-slate-300">We're focused on building blockchain tools that make the internet a better place to exist. This is a collection of projects that our members are building. You can find current proposals <span className="hover:font-semibold text-green-400"><Link href="../labs/Ideas">here</Link></span>.</p>
+      <p className="text-xl text-slate-400 dark:text-slate-300">We're focused on building blockchain tools that make the internet a better place to exist. This is a collection of projects that our members are building.</p>
     </div>
 
         <div className="mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">

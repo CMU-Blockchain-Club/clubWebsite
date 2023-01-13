@@ -22,6 +22,12 @@ export const CurrentProjects:IProject[] = [
         }
     },
     {
+        name:"Ethereum Node",
+        description:"A custo computer used to validate state on the Ethereum blockchain.",
+        photoPath:"/media/projects/logoEthereum.png",
+        tag: TopicTag.infrastructure
+    },
+    {
         name:"The Fashionverse",
         description:"Enables self-expression for virtual identities by creating, marketing, and selling digital fashion for businesses like luxury fashion brands, select NFT communities, and celebrity-sponsored social campaigns.",
         photoPath:"/media/projects/logoFashionverse.jpg",
@@ -38,7 +44,19 @@ export const CurrentProjects:IProject[] = [
             site:"https://innovation-collective.xyz/",
             twitter:"https://twitter.com/innoco_club"
         }
-    }
+    },
+    {
+        name:"Onchain Voting",
+        description:"A website where people can create and vote on proposals. Both votes and proposals will be stored on the blockchain.",
+        photoPath:"/media/projects/ballotBox.jpg",
+        tag:TopicTag.privacy
+    },
+    {
+        name:"Java Monero Wallet",
+        description:"A monero wallet implementation in java. This will allow users to send and receive tokens on the Monero network.",
+        photoPath:"/media/projects/logoMonero.png",
+        tag: TopicTag.infrastructure
+    },
 ]
 
 
