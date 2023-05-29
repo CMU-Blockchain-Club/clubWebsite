@@ -118,6 +118,49 @@ export const Board22Fall: IBoardMember[] = [
   },
 ];
 
+export const Board23Fall: IBoardMember[] = [
+  {
+    name: "Tanay Venkata",
+    photoPath: "/media/leaders/board2324/tanay.jpg",
+    boardData: {
+      position: BoardPosition.president,
+    },
+    socials: {},
+  },
+  {
+    name: "Khushi Wadhwa",
+    photoPath: "/media/leaders/board2324/khushi.jpg",
+    boardData: {
+      position: BoardPosition.vicePresident,
+    },
+    socials: {},
+  },
+  {
+    name: "Marlon Edwards",
+    photoPath: "/media/leaders/board2324/marlonEdwards.png",
+    boardData: {
+      position: BoardPosition.treasurer,
+    },
+    socials: {},
+  },
+  {
+    name: "Ram Potham",
+    photoPath: "/media/leaders/board2324/RamPotham.jpg",
+    boardData: {
+      position: BoardPosition.governance,
+    },
+    socials: {},
+  },
+  {
+    name: "Kester Tan",
+    photoPath: "/media/leaders/board2324/kester.jpg",
+    boardData: {
+      position: BoardPosition.marketing,
+    },
+    socials: {},
+  }
+]
+
 export const Board23Spring: IBoardMember[] = [
   {
     name: "Jett Hays",
