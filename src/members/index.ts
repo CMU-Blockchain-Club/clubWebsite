@@ -121,7 +121,7 @@ export const Board22Fall: IBoardMember[] = [
 export const Board23Fall: IBoardMember[] = [
   {
     name: "Tanay Venkata",
-    photoPath: "/media/leaders/board2324/tanay.jpg",
+    photoPath: "/media/leaders/board2324/tanay.webp",
     boardData: {
       position: BoardPosition.president,
     },
@@ -129,7 +129,7 @@ export const Board23Fall: IBoardMember[] = [
   },
   {
     name: "Khushi Wadhwa",
-    photoPath: "/media/leaders/board2324/khushi.jpg",
+    photoPath: "/media/leaders/board2324/khushi.webp",
     boardData: {
       position: BoardPosition.vicePresident,
     },
@@ -137,7 +137,7 @@ export const Board23Fall: IBoardMember[] = [
   },
   {
     name: "Marlon Edwards",
-    photoPath: "/media/leaders/board2324/marlonEdwards.png",
+    photoPath: "/media/leaders/board2324/marlon.webp",
     boardData: {
       position: BoardPosition.treasurer,
     },
@@ -145,7 +145,7 @@ export const Board23Fall: IBoardMember[] = [
   },
   {
     name: "Ram Potham",
-    photoPath: "/media/leaders/board2324/RamPotham.jpg",
+    photoPath: "/media/leaders/board2324/ram.webp",
     boardData: {
       position: BoardPosition.governance,
     },
@@ -153,7 +153,7 @@ export const Board23Fall: IBoardMember[] = [
   },
   {
     name: "Kester Tan",
-    photoPath: "/media/leaders/board2324/kester.jpg",
+    photoPath: "/media/leaders/board2324/webp",
     boardData: {
       position: BoardPosition.marketing,
     },
