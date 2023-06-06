@@ -153,7 +153,7 @@ export const Board23Fall: IBoardMember[] = [
   },
   {
     name: "Kester Tan",
-    photoPath: "/media/leaders/board2324/webp",
+    photoPath: "/media/leaders/board2324/kester.webp",
     boardData: {
       position: BoardPosition.marketing,
     },
