@@ -39,7 +39,7 @@ const Members: NextPage = () => {
       <div className="my-4">
       <h1 className="text-3xl font-bold text-transparent font-bold bg-clip-text bg-gradient-to-b from-purple-400 to-pink-600">2022-23 Class</h1>
       <p className="text-lg text-black dark:text-white">A few of the researchers and builders from our latest class of applicants.</p>
-      <p className="text-lg text-black dark:text-white">Apply through the <span className="text-purple-500 font-semibold"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfFeACwOqwFkNLDvgb-7fEvVkHee_wRUPrl9WkaV3VF2cN8pQ/viewform" target="_blank">Google Form&nbsp;</a></span>to access our current opportunities.</p>
+      <p className="text-lg text-black dark:text-white">Apply through the <span className="text-purple-500 font-semibold"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfFeACwOqwFkNLDvgb-7fEvVkHee_wRUPrl9WkaV3VF2cN8pQ/viewform" target="_blank"  rel="noreferrer">Google Form&nbsp;</a></span>to access our current opportunities.</p>
       {/*</div><Link href="../members/portal">member portal</Link></span> for current opportunities.</p>*/}
       </div>
       
