@@ -128,6 +128,14 @@ export const Board23Fall: IBoardMember[] = [
     socials: {},
   },
   {
+    name: "Tatiana Sinelnikova",
+    photoPath: "/media/leaders/board2324/tatiana.webp",
+    boardData: {
+      position: BoardPosition.vicePresident,
+    },
+    socials: {},
+  },
+  {
     name: "Marlon Edwards",
     photoPath: "/media/leaders/board2324/marlon.webp",
     boardData: {
